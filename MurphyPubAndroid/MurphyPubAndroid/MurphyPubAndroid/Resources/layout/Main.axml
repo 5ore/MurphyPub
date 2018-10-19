@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen_background"
+    android:id="@+id/layout">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/dogadjaji_neselektovani"
+            android:id="@+id/MainButtonEvents"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/promocije_neselektovane"
+            android:id="@+id/MainButtonPromotions"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="350dp"
+        android:background="@drawable/home_screen_logo_and_text"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textColor="#86131a"
+            android:text="Prvi pravi Irish Pub u Leskovcu! Pivo, utakmice na video bimu, rok svirke, kulturni događaji...Ali nemojte nam verovati dok sami ne vidite ;)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:background="@drawable/logo_leprechaun"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

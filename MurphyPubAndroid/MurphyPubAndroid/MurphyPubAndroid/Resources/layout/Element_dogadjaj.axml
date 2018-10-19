@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="150dp"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/element_background"
+    android:id="@+id/dogadjaj_root_element">
+    <ImageView
+        android:layout_height="130dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00FFFFFF"
+        android:id="@+id/event_element_image_placeholder"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="130dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/dogadjaj_element_naziv"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/dogadjaj_element_datum"
+            android:layout_margin="5dp"
+            android:textColor="#000000" />
+        <Button
+            android:layout_height="25dp"
+            android:layout_width="match_parent"
+            android:id="@+id/dogadjaj_element_info"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vise_info_dugme"
+            android:layout_gravity="bottom|center" />
+    </LinearLayout>
+</LinearLayout>

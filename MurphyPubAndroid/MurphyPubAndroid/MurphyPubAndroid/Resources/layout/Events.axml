@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/logo_watermark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dogadjaji_selektovani"
+            android:id="@+id/EventsButtonEvents" />
+        <Button
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/promocije_neselektovane"
+            android:id="@+id/EventsButtonPromotions" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/dogadjaji_baner"
+            android:layout_marginBottom="-10dp" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:smoothScrollbar="true"
+            android:background="@drawable/narandzasta_lista_background"
+            android:id="@+id/EventsList" />
+    </LinearLayout>
+</LinearLayout>
